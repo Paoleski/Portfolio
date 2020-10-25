@@ -367,12 +367,17 @@ h6{font-size:16px;}
 
 @media screen and (max-width: 700px) {
     #preview {
-        width:200px;
+        margin-right:20px;
      }
  
      #preview-shadow {
-         width:200px;
+         margin-right:20px
      }
+
+     .about-wrapper {
+         gap:10px;
+     }
+
 }
 
 
@@ -409,3 +414,5 @@ h6{font-size:16px;}
          padding-top:20px;
      }
 }
+
+
