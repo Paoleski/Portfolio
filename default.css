@@ -324,6 +324,22 @@ h6 {
     margin:0;
 }
 
+#status {
+  text-align: center;
+  border-radius:8px;
+  font-size:26px;
+}
+
+#status.success {
+  background-color:rgb(211,250,153);
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color:rgb(250,129,92);
+  animation: status 4s ease forwards;
+}
+
 @media screen and (max-width: 700px) {
   #preview {
     margin-right: 20px;
