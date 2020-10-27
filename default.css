@@ -313,15 +313,20 @@ h6 {
 .project-img {
   display: block;
   margin: 0 auto;
-  height: 400px;
+  max-height:500px;
   width:100%;
-  border: 2px solid var(--borderColor);
+  object-fit: contain;
 }
 
 .project-container {
     display:flex;
     flex-direction: column;
     margin:0;
+}
+
+.post-section {
+  max-height: 100vh;
+  margin:0;
 }
 
 #status {
