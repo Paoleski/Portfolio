@@ -326,7 +326,6 @@ h6 {
 
 .project-grid {
   display:grid;
-  grid-template-columns: 50% 50%;
 }
 
 .post-section {
@@ -390,5 +389,14 @@ h6 {
   #preview-shadow {
     width: 200px;
     margin-top: -80px;
+  }
+
+}
+
+
+@media screen and (min-width: 800px) {
+  .project-grid {
+  grid-template-columns:50% 50%;
+  margin:0 auto;
   }
 }
