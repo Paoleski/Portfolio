@@ -18,19 +18,21 @@
     <script src="app.js"></script>
   </head>
   <body>
-    <section class="s1">
+     <!--navbar-->
+     <div class="nav-wrapper">
+      <ul id="navigation">
+        <li><a href="#firstpart">Home</a></li>
+        <li><a href="#contact-form">Contact</a></li>
+      </ul>
+    </div>
+      <!--navbar-->
+    <section id="firstpart" class="s1">
       <div class="main-container">
         <div class="greeting-wrapper">
         </div>
 
         <div class="intro-wrapper">
-            <!--navbar-->
-          <div class="nav-wrapper">
-            <ul id="navigation">
-              <li><a href="#contact-form">Contact</a></li>
-            </ul>
-          </div>
-            <!--navbar-->
+           
           <div class="left-column">
             <h4 style="text-align: center;padding-left: 5px;padding-right: 5px;"> Hello there, my name is Lucas Paoleschi </h4>
             <img
@@ -40,18 +42,12 @@
             />
           </div>
           <div class="right-column">
-            <div id="preview-shadow">
-              <div id="preview">
-                <div id="corner-tl" class="corner"></div>
-                <div id="corner-tr" class="corner"></div>
-                <h3>What I do</h3>
-                <p>
-                  I owned a burguer shop in a past life, now i'm a
-                  (aspiring) developer.
-                </p>
-                <div id="corner-br" class="corner"></div>
-                <div id="corner-bl" class="corner"></div>
-              </div>
+            <div id="preview">
+              <h3 style="text-align: center;">What I do</h3>
+              <p>
+                I owned a burguer shop in a past life, now i'm a
+                developer.
+              </p>
             </div>
           </div>
         </div>
@@ -74,7 +70,7 @@
 
             <h4>EXPERTISE</h4>
             <p>
-            Junior developer focusing on learning React, node.js.
+            Junior developer focusing on learning React, node.js, mongoDB.
             <a target="_blank" href="resume.pdf">Download Resume</a>
             </p>
 
