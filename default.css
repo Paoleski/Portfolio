@@ -216,7 +216,7 @@ h6 {
 
 .post-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
+  grid-template-columns: repeat(auto-fit, 400px);
   gap: 20px;
   justify-content: center;
   padding-bottom: 50px;
@@ -341,6 +341,10 @@ h6 {
 
   .right-column {
     justify-content: center;
+  }
+
+  .post-wrapper {
+    grid-template-columns:repeat(auto-fit, 320px);
   }
 
 }
